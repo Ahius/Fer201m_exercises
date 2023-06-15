@@ -10,7 +10,7 @@ export const PlayerList = [
     {
       id: 2, 
       name: 'Zlatan Ibrahimović', 
-      cost: 40000000, 
+      cost: 20000000, 
       club: 'Milan', 
       img: 'assets/images/ibra.jpg',
       info: 'N Golo Kanté (born 29 March 1991) is a French professional footballer who plays as a central midfielder for Premier League club Chelsea and the France national team. Kanté is widely praised for his work rate and defensive acumen.'
@@ -44,7 +44,29 @@ export const PlayerList = [
       cost: 150000000, 
       club: 'Manchester City', 
       img: 'assets/images/haaland1.jpg', 
-      info: 'Erling Braut Haaland (né Håland; born 21 July 2000) is a Norwegian professional footballer who plays as a striker for Premier League club Manchester City and the Norway national team. Considered one of the best players in the world, he is known for his athleticism, speed and finishing.' },
+      info: 'Erling Braut Haaland (né Håland; born 21 July 2000) is a Norwegian professional footballer who plays as a striker for Premier League club Manchester City and the Norway national team. Considered one of the best players in the world, he is known for his athleticism, speed and finishing.' 
+    },
+    { id: 7, 
+      name: 'Kevin De Bruyne', 
+      cost: 200000000, 
+      club: 'Manchester City', 
+      img: 'assets/images/kevin1.jpg', 
+      info: 'Kevin De Bruyne (born 28 June 1991) is a Belgian professional footballer who plays as a midfielder for Premier League club Manchester City and captains the Belgium national team.' 
+    },
+    { id: 8, 
+      name: 'Robert Lewandowski', 
+      cost: 120000000, 
+      club: 'FC Barcalona', 
+      img: 'assets/images/lewan.jpg', 
+      info: 'Robert Lewandowski is a Polish professional footballer who plays as a striker for La Liga club Barcelona and captains the Poland national team.' 
+    },
+    { id: 9, 
+      name: 'Karim Benzema', 
+      cost: 170000000, 
+      club: 'Real Madrid', 
+      img: 'assets/images/ben.jpg', 
+      info: 'Karim Mostafa Benzema (born 19 December 1987) is a French professional footballer who plays as a striker and captains La Liga club Real Madrid. ' 
+    },
     
 
   ]

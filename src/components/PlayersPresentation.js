@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 export default function PlayersPresentation({ players }) {
     //console.log(players);
-    const [player, setPlayer] = useState([]);
+    const [player, setPlayer] = useState({});
     return (
         <div className='container'>
             <div className='row'>
