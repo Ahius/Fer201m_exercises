@@ -1,15 +1,16 @@
 
 import './App.css';
+import Main from './components/Main';
 import Navigation from './components/Navigation';
-import Players from './components/Players';
+
+// import Players from './components/Players';
 
 function App() {
   return (
     <div className="App">
       <Navigation />
-      <Players />
+      <Main />
     </div>
   );
 }
-
 export default App;

@@ -1,16 +1,15 @@
 import React, { useState } from 'react'
-import { PlayerList } from '../shared/ListOfPlayers'
 import 'bootstrap/dist/css/bootstrap.min.css';
-export default function Players() {
-    const [player, setPlayer] = useState();
+export default function PlayersPresentation({ players }) {
+    //console.log(players);
+    const [player, setPlayer] = useState([]);
     return (
-
         <div className='container'>
             <div className='row'>
-                {PlayerList.map((player) => (
+                {players.map((player) => (
                     <div className='col-lg-4 col-md-6' key={player.id}>
                         <div className='card'>
-                            <img src={player.img}  alt='' className='image' />
+                            <img src={player.img} alt='' className='image' />
                             <h3>{player.name}</h3>
                             <p className='club'>{player.club}</p>
                             <button onClick={() => { setPlayer(player) }}>
@@ -21,7 +20,7 @@ export default function Players() {
                 ))}
                 <div id='popup1' className='overlay'>
                     <div className='popup'>
-                        <img src={player.img} alt='' />
+                        <img src={player.img}  alt=''  />
                         <h2>{player.name}</h2>
                         <a className='close' href='#'>&times;</a>
                         <div className='content'>
@@ -32,6 +31,5 @@ export default function Players() {
             </div>
 
         </div>
-    );
-
+    )
 }
